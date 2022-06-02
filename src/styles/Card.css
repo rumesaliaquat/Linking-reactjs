@@ -1,0 +1,20 @@
+
+.crd {
+    width: 400px;
+    margin: 80px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 5px 5px 25px rgb(173, 74, 91); */
+}
+.crd p{
+    font-size: 12px;
+}
+
+.crd h1{
+ font-weight: bold;
+ padding: 8px;
+ font-family: monospace;
+}

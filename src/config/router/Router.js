@@ -2,12 +2,11 @@ import React from 'react'
 import {
     BrowserRouter as Router,
     Routes,
-    Route,
-    Link
+    Route
 } from "react-router-dom";
-import DashBoard from '../../components/DashBoard';
-import Login from '../../components/Login';
-import Signup from '../../components/Signup';
+import Login from '../../pages/Login';
+import Signup from '../../pages/Signup';
+import DashBoard from '../../pages/DashBoard';
 
 
 function AppRouter() {
@@ -15,11 +14,13 @@ function AppRouter() {
         <div>
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<Login />} />
-                    <Route path="/signup" element={<Signup />} />
-                    <Route path="/dashboard" element={<DashBoard />} />
+                    <Route exact path="/" element={<Login/>} />
+                    <Route path="/signup" element={<Signup/>} />
+                    <Route path="/dashboard" element={<DashBoard/>} />
                 </Routes>
             </Router>
+
+            
         </div>
     )
 }
