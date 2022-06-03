@@ -1,0 +1,21 @@
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px;
+
+}
+.link1:hover{
+    color: red;
+    
+}
